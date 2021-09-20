@@ -6,6 +6,7 @@ class Customer:
         self.credit = credit
     def __dict__(self):
         return {
+            
             'customer_id': self.customer_id,
             'customer_name': self.customer_name,
             'password': self.password,
