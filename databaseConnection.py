@@ -12,7 +12,7 @@ def db_entry_to_customer(entry):
 # Database Creation in MySQL
 
 def load_config():
-    with open('config/config.json', 'r') as f:
+    with open('config.json', 'r') as f:
         return json.load(f)
 
 class DB:
